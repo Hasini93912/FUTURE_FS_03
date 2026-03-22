@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nearby Bakery Finder</title>
+
+<link rel="stylesheet" href="style8.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+Near<span>Bakery</span>
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+<li><a href="#bakeries">Bakeries</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+
+<li>
+<a class="nav-cta" href="#contact">
+Order Now
+</a>
+</li>
+
+</ul>
+
+<button class="nav-toggle">
+<span></span>
+<span></span>
+<span></span>
+</button>
+
+</nav>
+
+</header>
+
+<section id="home" class="hero">
+
+<div>
+
+<p class="hero-tag">Find Delicious Cakes Nearby</p>
+
+<h1>
+Fresh Bakery<br>
+Near You
+</h1>
+
+<p class="hero-sub">
+Discover the best bakeries in your area with fresh cakes, pastries, and breads.
+</p>
+
+<a href="#bakeries" class="btn primary-btn">
+View Bakeries
+</a>
+
+</div>
+
+<div>
+
+<img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg"
+style="width:100%;border-radius:20px">
+
+</div>
+
+</section>
+
+<section id="bakeries" class="section">
+
+<div class="section-header">
+
+<h2>Nearby Bakeries</h2>
+<p>Popular bakeries around you</p>
+
+</div>
+
+<div class="services-grid">
+
+<div class="service-card">
+
+<div class="service-img"
+style="background-image:url('https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg')">
+</div>
+
+<h3>Sweet Crumbs Bakery</h3>
+<p>Fresh cakes and pastries daily</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-img"
+style="background-image:url('https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg')">
+</div>
+
+<h3>Golden Oven</h3>
+<p>Specialized in birthday cakes</p>
+
+</div>
+
+<div class="service-card">
+
+<div class="service-img"
+style="background-image:url('https://images.pexels.com/photos/2135/food-france-morning-breakfast.jpg')">
+</div>
+
+<h3>Daily Bread Bakery</h3>
+<p>Fresh bread and cookies</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery" class="section">
+
+<div class="section-header">
+
+<h2>Bakery Gallery</h2>
+<p>Delicious bakery items</p>
+
+</div>
+
+<div class="gallery-grid">
+
+<div class="gallery-item">
+<img src="https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg">
+</div>
+
+<div class="gallery-item">
+<img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg">
+</div>
+
+<div class="gallery-item">
+<img src="https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg">
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="section">
+
+<div class="section-header">
+
+<h2>Contact Bakery</h2>
+<p>Place your order or ask for custom cakes</p>
+
+</div>
+
+<div style="max-width:500px;margin:auto">
+
+<form class="contact-form" id="appointment-form">
+
+<div class="form-row">
+
+<input type="text" name="name" placeholder="Your Name" required>
+
+<input type="tel" name="phone" placeholder="Phone Number" required>
+
+</div>
+
+<input type="text" placeholder="Cake Type">
+
+<textarea rows="3" placeholder="Custom Cake Request"></textarea>
+
+<button class="btn primary-btn full-width">
+Send Order
+</button>
+
+<p id="form-status"></p>
+
+</form>
+
+</div>
+
+</section>
+
+<footer class="footer">
+
+<p>
+© <span id="year"></span> Nearby Bakery Finder
+</p>
+
+</footer>
+
+<script src="script8.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+// mobile menu toggle
+
+const navToggle = document.querySelector(".nav-toggle")
+const navLinks = document.querySelector(".nav-links")
+
+navToggle.addEventListener("click",()=>{
+
+navLinks.classList.toggle("show")
+
+})
+
+
+// close menu when clicking link
+
+navLinks.addEventListener("click",(e)=>{
+
+if(e.target.tagName==="A"){
+
+navLinks.classList.remove("show")
+
+}
+
+})
+
+
+// footer year
+
+document.getElementById("year").textContent =
+new Date().getFullYear()
+
+
+// bakery order form
+
+const form =
+document.getElementById("appointment-form")
+
+const status =
+document.getElementById("form-status")
+
+form.addEventListener("submit",(e)=>{
+
+e.preventDefault()
+
+status.textContent="Sending your bakery order..."
+
+setTimeout(()=>{
+
+status.textContent=
+"Your cake order request has been sent successfully 🎂"
+
+form.reset()
+
+},1000)
+
+})
